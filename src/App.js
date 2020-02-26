@@ -1,9 +1,14 @@
-import React,{Component} from 'react';
+import React, { Component } from 'react';
+import HomePage from './components/HomePage';
 
-function App(){
-  return (
-    <div>Felight-IO</div>
-  )
+export default class App extends Component {
+  render() {
+    return (
+      <div>
+        <h1>Felight IO</h1>
+        <HomePage/>
+      </div>
+    )
+  }
 }
 
-export default App;
