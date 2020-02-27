@@ -1,8 +1,9 @@
 import React from 'react';
-
+import './HomePage.style.scss';
 const HomePage=()=>(
 
     <div className="Homepage">
+        <h1>Felight-io</h1>
 
         <div className="Categories-Container">
             <div className="Category-item">
@@ -14,7 +15,7 @@ const HomePage=()=>(
 
             <div className="Category-item">
                 <div className="Content-Holder">
-                    <div className="Title"><h2>ava Script Full Stack</h2></div>
+                    <div className="Title"><h2>Java Script Full Stack</h2></div>
                     <span className="Sub-Title">Know More</span>
                 </div>
             </div>
@@ -33,12 +34,6 @@ const HomePage=()=>(
                 </div>
             </div>
 
-            <div className="Category-item">
-                <div className="Content-Holder">
-                    <div className="Title"></div>
-                    <span className="Sub-Title"></span>
-                </div>
-            </div>
         </div>
     </div>
 )
